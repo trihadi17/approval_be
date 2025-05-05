@@ -36,7 +36,7 @@ Proyek ini menggunakan Laravel 10, proyek ini berisikan API untuk pengajuan izin
   ```
 - Selanjutnya, jalankan perintah:
   ```
-  php artisan migrate
+  php artisan migrate --seed
   ```
 - Jalankan perintah berikut untuk compiled assets (development):
   ```
