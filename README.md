@@ -44,4 +44,4 @@ Proyek ini menggunakan Laravel 10, proyek ini berisikan API untuk pengajuan izin
   php artisan serve
   ```
 
-- Buka browser dengan url [http://localhost:8000](http://localhost:8000)
+- Testing API menggunakan Postman
