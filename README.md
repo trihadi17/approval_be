@@ -1,5 +1,5 @@
 ### **Petunjuk Penggunaan**
-Proyek ini menggunakan Laravel 10, proyek ini berisikan API untuk pengajuan izin
+Proyek ini menggunakan Laravel 10 dan JWT (Authentikasi), proyek ini berisikan API untuk pengajuan izin
 
 ### **Software pendukung yang perlu disiapkan sebelum memulai**
 - PHP
@@ -19,9 +19,13 @@ Proyek ini menggunakan Laravel 10, proyek ini berisikan API untuk pengajuan izin
   ```
   php -r "copy('.env.example', '.env');";
   ```
-- Kemudian, jalankan perintah:
+- Kemudian membuat application key baru, dengan cara jalankan perintah:
   ```
   php artisan key:generate
+  ```
+- Selanjutnya, generate secret key untuk JWT, seperti berikut :
+  ```
+  php artisan jwt:secret
   ```
 - Buat database dengan nama ***approval***
 - Sesuaikan parameter pada file **.env**, seperti berikut:
