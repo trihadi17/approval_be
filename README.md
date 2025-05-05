@@ -9,6 +9,7 @@ Proyek ini menggunakan Laravel 10, proyek ini berisikan API untuk pengajuan izin
 
 ### **Panduan Instalasi**
 
+- Download code pada github, setelah itu extract
 - Buka terminal atau command line, kemudian arahkan ke folder ***approval_be***
 - Jalankan perintah:
   ```
