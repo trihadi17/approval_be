@@ -38,11 +38,6 @@ Proyek ini menggunakan Laravel 10, proyek ini berisikan API untuk pengajuan izin
   ```
   php artisan migrate --seed
   ```
-- Jalankan perintah berikut untuk compiled assets (development):
-  ```
-  - npm install
-  - npm run dev
-  ```
 - Buka command line yang baru, jalankan perintah:
   ```
   php artisan serve
